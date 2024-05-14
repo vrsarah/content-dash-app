@@ -52,6 +52,7 @@ app.layout = html.Div(
                         html.A(
                             html.Button("View Code", id="learn-more-button"),
                             href="https://github.com/sol-eng/python-examples",
+                            target="_blank",
                         )
                     ],
                     className="one-third column",
