@@ -10,6 +10,11 @@ from dotenv import load_dotenv
 
 app = dash.Dash(__name__)
 
+colors = {
+    'background': '#111111',
+    'text': '#7FDBFF'
+}
+
 locations = pd.read_csv("https://colorado.rstudio.com/rsc/bike_station_info/data.csv")
 location_options = [
     {"label": locations["name"][l], "value": locations["station_id"][l]}
