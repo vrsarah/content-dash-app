@@ -31,7 +31,7 @@ app.layout = html.Div(
                         html.Img(
                             src="https://d33wubrfki0l68.cloudfront.net/1ac3f0e3753f18c7e2a8893957d1841fba1e3d08/48a33/wp-content/uploads/2018/10/rstudio-logo-flat.png",
                             style={"height": "60px", "width": "auto"},
-                            color={"color":"backgroud"},
+                            color={"color":"background"},
                         )
                     ],
                     className="one-third column",
