@@ -54,7 +54,6 @@ app.layout = html.Div(
                                 ),
                                 html.H5(
                                     test_1
-                                    test_2
                                 ),
                             ]
                         )
