@@ -16,6 +16,7 @@ location_options = [
     for l in locations.index
 ]
 mapbox = os.getenv("MAPBOX_API_KEY")
+test = or.getenv("test_variable","no value")
 
 app.layout = html.Div(
     [
@@ -42,7 +43,7 @@ app.layout = html.Div(
                                     "Availability Forecast", style={"margin-top": "0px"}
                                 ),
                                 html.H5(
-                                    "Test Value",
+                                    "Test Value: ",value={test}
                                 ),
                             ]
                         )
