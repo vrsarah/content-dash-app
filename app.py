@@ -53,7 +53,7 @@ app.layout = html.Div(
                                     "Availability Forecast", style={"margin-top": "0px"}
                                 ),
                                 html.H5(
-                                    test_1
+                                    test_1, test_2, test_3
                                 ),
                             ]
                         )
