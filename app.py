@@ -16,7 +16,7 @@ location_options = [
     for l in locations.index
 ]
 mapbox = os.getenv("MAPBOX_API_KEY")
-test = os.getenv("test_variable","no value")
+test = os.environ.get('SERVICE_USER', 'my-default-service-username')
 
 app.layout = html.Div(
     [
