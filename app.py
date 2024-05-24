@@ -21,7 +21,7 @@ location_options = [
     for l in locations.index
 ]
 mapbox = os.getenv("MAPBOX_API_KEY")
-app.text(os.getenv('TEST','not found'))
+test_secret = os.environ.get('Test Secret', 'test value')
 
 app.layout = html.Div(
     [
@@ -42,6 +42,7 @@ app.layout = html.Div(
                             [
                                 html.H3(
                                     "Capitol Bikeshare",
+                                    test_secret,
                                     style={"margin-bottom": "0px"},
                                 ),
                                 html.H5(
