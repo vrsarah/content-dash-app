@@ -16,7 +16,17 @@ location_options = [
     for l in locations.index
 ]
 mapbox = os.getenv("MAPBOX_API_KEY")
-test = os.environ.get('SERVICE_USER', 'my-default-service-username')
+test_1 = os.environ.get('VALUE-A', 'Default A')
+test_2 = os.environ.get('VALUE-B', 'Default B')
+test_3 = os.environ.get('VALUE-C', 'Default C')
+test_4 = os.environ.get('VALUE-D', 'Default D')
+test_5 = os.environ.get('VALUE-E', 'Default E')
+test_6 = os.environ.get('VALUE-F', 'Default F')
+test_7 = os.environ.get('VALUE-G', 'Default G')
+test_8 = os.environ.get('VALUE-H', 'Default H')
+test_9 = os.environ.get('VALUE-I', 'Default I')
+test_10 = os.environ.get('VALUE-J', 'Default J')
+test_11 = os.environ.get('VALUE-K', 'Default K')
 
 app.layout = html.Div(
     [
@@ -43,7 +53,8 @@ app.layout = html.Div(
                                     "Availability Forecast", style={"margin-top": "0px"}
                                 ),
                                 html.H5(
-                                    test
+                                    test_1
+                                    test_2
                                 ),
                             ]
                         )
