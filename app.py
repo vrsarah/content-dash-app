@@ -16,7 +16,7 @@ location_options = [
     for l in locations.index
 ]
 mapbox = os.getenv("MAPBOX_API_KEY")
-test = or.getenv("test_variable","no value")
+test = os.getenv("test_variable","no value")
 
 app.layout = html.Div(
     [
