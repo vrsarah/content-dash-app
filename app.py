@@ -41,13 +41,13 @@ app.layout = html.Div(
                         html.Div(
                             [
                                 html.H3(
-                                    "Capitol Bikeshare",
-                                    test_secret,
+                                    "Capitol Bikeshare"
                                     style={"margin-bottom": "0px"},
                                 ),
                                 html.H5(
                                     "Availability Forecast", style={"margin-top": "0px"}
                                 ),
+                                html.H5("Test: {test_secret}"),
                             ]
                         )
                     ],
