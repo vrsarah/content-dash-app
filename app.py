@@ -21,7 +21,7 @@ location_options = [
     for l in locations.index
 ]
 mapbox = os.getenv("MAPBOX_API_KEY")
-st.text(os.environ.get('TEST','not found'))
+app.text(os.environ.get('TEST','not found'))
 
 app.layout = html.Div(
     [
