@@ -3,11 +3,8 @@
   "locale": "C",
   "platform": "4.3.3",
   "metadata": {
-    "appmode": "dash",
-    "primary_rmd": null,
-    "primary_html": null,
-    "content_category": null,
-    "has_parameters": false
+    "appmode": "python-dash",
+    "entrypoint": "app"
   },
   "python": {
     "version": "3.10.0",
