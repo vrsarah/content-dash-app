@@ -14,7 +14,6 @@
       "package_file": "requirements.txt"
     }
   },
-  "packages": null,
   "files": {
     "app.py": {
       "checksum": "caa6ef349f3a45e3bb7a97e84923e3c2"
